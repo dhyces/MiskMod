@@ -1,0 +1,87 @@
+<SoftwareType>
+	<Name>OS Modding Tools</Name>
+	<Category>OS Modding Tools</Category>
+	<Description>Tools to help you modify an operating system. Actually quite fun!</Description>
+	<Unlock>1980</Unlock>
+	<Random>0.9</Random>
+	<Popularity>0.6</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>ModTools</NameGenerator>
+    <Needs>
+    </Needs>
+    <Categories>
+    </Categories>
+    <Features>
+		<Feature Forced="True">
+			<Name>Menu</Name>
+			<Category>General</Category>
+            <Description>The basic workplace for modders.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature From="Menu">
+			<Name>Enhanced Menu</Name>
+			<Category>General</Category>
+            <Description>Nicer, filled menu, with new options!</Description>
+            <DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+            <Unlock>1981</Unlock>
+			<CodeArt>0.5</CodeArt>
+            <Dependencies>
+				<Dependency Software="Modding Tools">Menu</Dependency>
+            </Dependencies>
+		</Feature>
+		<Feature From="Enhanced Menu">
+			<Name>Advanced Graphical User Interface</Name>
+			<Category>General</Category>
+            <Description>A very completed workplace for the over-achiever.</Description>
+            <DevTime>9</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>3</Stability>
+            <Unlock>1982</Unlock>
+			<CodeArt>0.2</CodeArt>
+            <Dependencies>
+				<Dependency Software="Modding Tools">Enhanced Menu</Dependency>
+            </Dependencies>
+		</Feature>
+		<Feature>
+			<Name>3D Support</Name>
+			<Category>3D</Category>
+            <Description>A feature that will hopefully be implemented soon.</Description>
+            <DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.9</CodeArt>
+            <Dependencies>
+				<Dependency Software="Operating System">3D rendering</Dependency>
+            </Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Audio Editing</Name>
+			<Category>Audio</Category>
+            <Description>A few new sounds could be enjoyable.</Description>
+            <DevTime>5</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.8</CodeArt>
+			<Dependencies>
+				<Dependency Software="Audio Editor">Audio playback</Dependency>
+			</Dependencies>
+		</Feature>
+    </Features>
+</SoftwareType>    
