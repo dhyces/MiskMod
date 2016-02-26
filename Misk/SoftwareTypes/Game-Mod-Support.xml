@@ -1,0 +1,18 @@
+<SoftwareType Override="True">
+	<Name>Game</Name>
+	<Needs>
+	</Needs>
+	<Features>
+		<Feature Forced="True">
+			<Name>Game SDK</Name>
+			<Category>General</Category>
+            <Description>Allows the development of video games.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>

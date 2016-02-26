@@ -1,19 +1,115 @@
 <SoftwareType>
-	<Name>OS Modding Tools</Name>
-	<Category>OS Modding Tools</Category>
-	<Description>Tools to help you modify an operating system. Actually quite fun!</Description>
+	<Name>Modding Tools</Name>
+	<Category>Modding Tools</Category>
+	<Description>Tools to help you modify a software. Actually quite fun!</Description>
 	<Unlock>1980</Unlock>
 	<Random>0.9</Random>
 	<Popularity>0.6</Popularity>
+	<Retention>0.6</Retention>
+	<Iterative>1</Iterative>
 	<OSSpecific>True</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<NameGenerator>ModTools</NameGenerator>
     <Needs>
     </Needs>
-    <Categories>
-    </Categories>
+	<Categories>
+		<Category Name="Computer Mod SDK">
+			<Description>Computer mod tool.</Description>
+            <Unlock>1980</Unlock>
+            <TimeScale>0.6</TimeScale>
+            <Popularity>0.3</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>ModTools</NameGenerator>
+			<Needs>
+			</Needs>
+		</Category>
+		<Category Name="Console Mod SDK">
+			<Description>Console mod tool.</Description>
+            <Unlock>1980</Unlock>
+            <TimeScale>0.6</TimeScale>
+            <Popularity>0.3</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>ModTools</NameGenerator>
+		</Category>
+		<Category Name="Phone Mod SDK">
+			<Description>Phone mod tool.</Description>
+            <Unlock>1980</Unlock>
+            <TimeScale>0.6</TimeScale>
+            <Popularity>0.3</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>ModTools</NameGenerator>
+		</Category>
+		<Category Name="Game Mod SDK">
+			<Description>Game mod tool.</Description>
+            <Unlock>1980</Unlock>
+            <TimeScale>0.6</TimeScale>
+            <Popularity>0.3</Popularity>
+            <Retention>0.4</Retention>
+            <Iterative>1</Iterative>
+            <NameGenerator>ModTools</NameGenerator>
+		</Category>
+	</Categories>
     <Features>
+		<Feature Forced="True">
+			<Name>Phone Mod Support</Name>
+			<Category>General</Category>
+            <Description>Allows the modding of mobile phone operating systems.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Phone Mod SDK</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Console Mod Support</Name>
+			<Category>General</Category>
+            <Description>Allows the modding of console operating systems.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Console Mod SDK</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Computer Mod Support</Name>
+			<Category>General</Category>
+            <Description>Allows the modding of computer operating systems.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Computer Mod SDK</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Game Mod Support</Name>
+			<Category>General</Category>
+            <Description>Allows the modding of video games. Deja-vu.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Game Mod SDK</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
 		<Feature Forced="True">
 			<Name>Menu</Name>
 			<Category>General</Category>
@@ -44,7 +140,7 @@
 		<Feature From="Enhanced Menu">
 			<Name>Advanced Graphical User Interface</Name>
 			<Category>General</Category>
-            <Description>A very completed workplace for the over-achiever.</Description>
+            <Description>A very completed workspace for the over-achiever.</Description>
             <DevTime>9</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
@@ -80,7 +176,6 @@
             <Unlock>1980</Unlock>
 			<CodeArt>0.8</CodeArt>
 			<Dependencies>
-				<Dependency Software="Audio Editor">Audio playback</Dependency>
 			</Dependencies>
 		</Feature>
     </Features>

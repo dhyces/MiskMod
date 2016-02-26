@@ -1,0 +1,11 @@
+-start(base,base2,base3)
+-base(base2)
+The
+-base2(base3)
+Amazing
+Poetic
+-base3(end)
+Poetry
+Readings
+Stories
+-end(stop)

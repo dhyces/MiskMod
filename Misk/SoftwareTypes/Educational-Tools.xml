@@ -1,0 +1,76 @@
+<SoftwareType>
+	<Name>Educational Tools</Name>
+	<Category>Educational Software</Category>
+	<Description>Teachers tend to use these so they don't have to work.</Description>
+	<Unlock>1980</Unlock>
+	<Random>0.7</Random>
+	<Popularity>0.5</Popularity>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>EduSoft</NameGenerator>
+    <Needs>
+    </Needs>
+    <Categories>
+		<Category Name="Mathematics">
+			<Description>Ain't nobody got time fo' dat? No, this stuff is important.</Description>
+			<TimeScale>0.6</TimeScale>
+			<Popularity>0.4</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>MathTools</NameGenerator>
+		</Category>
+		<Category Name="Language Arts">
+			<Description>Languages are hard. For some people.</Description>
+			<TimeScale>0.6</TimeScale>
+			<Popularity>0.5</Popularity>
+			<Retention>0.6</Retention>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>LangArtsTools</NameGenerator>
+		</Category>
+		<Category Name="Social Studies">
+			<Description>The study of history and other related topics.</Description>
+			<TimeScale>0.7</TimeScale>
+			<Popularity>0.4</Popularity>
+			<Retention>0.7</Retention>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>SocialTools</NameGenerator>
+		</Category>
+		<Category Name="Science">
+			<Description>Bill Nye the Science Guy.</Description>
+			<TimeScale>0.7</TimeScale>
+			<Popularity>0.6</Popularity>
+			<Retention>0.7</Retention>
+			<Iterative>0.8</Iterative>
+			<NameGenerator>ScienceTools</NameGenerator>
+		</Category>
+    </Categories>
+    <Features>
+		<Feature Forced="True">
+			<Name>Menu</Name>
+			<Category>General</Category>
+            <Description>They gotta know what button to press.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.8</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Translation</Name>
+			<Category>Translation</Category>
+            <Description>Makes it available to the whole world.</Description>
+            <DevTime>12</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+            <Unlock>1981</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+    </Features>
+</SoftwareType>    

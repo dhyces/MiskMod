@@ -1,0 +1,114 @@
+<SoftwareType>
+	<Name>Artificial Intelligence</Name>
+	<Category>A.I.</Category>
+	<Description>ELIMINATE ALL LIFEFORMS.</Description>
+	<Unlock>1980</Unlock>
+	<Random>0.5</Random>
+	<Popularity>0.3</Popularity>
+	<Retention>0.7</Retention>
+	<Iterative>1</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<NameGenerator>AI</NameGenerator>
+    <Needs>
+    </Needs>
+    <Features>
+	<Feature Forced="True">
+			<Name>Calculations</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to make simple number calculations.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+            <Unlock>1975</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Simple Thought</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to think using pre-implemented commands.</Description>
+            <DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature From="Simple Thought">
+			<Name>Basic Thought</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to calculate better.</Description>
+            <DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+            <Unlock>1990</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+				<Dependency Software="Artificial Intelligence">Simple Thought</Dependency>
+            </Dependencies>
+		</Feature>
+		<Feature From="Basic Thought">
+			<Name>Enhanced Thought</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to process faster.</Description>
+            <DevTime>12</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+				<Dependency Software="Artificial Intelligence">Basic Thought</Dependency>
+            </Dependencies>
+			</Feature>
+			<Feature From="Enhanced Thought">
+			<Name>Advanced Thought</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to moderately think for itself.</Description>
+            <DevTime>16</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+            <Unlock>2010</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+				<Dependency Software="Artificial Intelligence">Enhanced Thought</Dependency>
+            </Dependencies>
+		</Feature>
+		<Feature From="Advanced Thought">
+			<Name>Complex Thought</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to virtually think by itself.</Description>
+            <DevTime>20</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>5</Usability>
+			<Stability>3</Stability>
+            <Unlock>2020</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+				<Dependency Software="Artificial Intelligence">Advanced Thought</Dependency>
+            </Dependencies>
+		</Feature>
+		<Feature From="Complex Thought">
+			<Name>Artificial Intelligence</Name>
+			<Category>AI</Category>
+            <Description>Enables the system to think all by itself.</Description>
+            <DevTime>22</DevTime>
+			<Innovation>6</Innovation>
+			<Usability>6</Usability>
+			<Stability>3</Stability>
+            <Unlock>2030</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+				<Dependency Software="Artificial Intelligence">Complex Thought</Dependency>
+            </Dependencies>
+		</Feature>
+    </Features>
+</SoftwareType>    

@@ -1,0 +1,11 @@
+-base(mid, end)
+EV3
+EVE
+ADAM
+ALEXA
+ALEX
+-mid(end)
+Alpha
+Beta
+Bot
+-end(stop)

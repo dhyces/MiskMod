@@ -1,0 +1,47 @@
+<SoftwareType Override="True">
+	<Name>Operating System</Name>
+	<Needs>
+	</Needs>
+	<Features>
+		<Feature Forced="True">
+			<Name>Console SDK</Name>
+			<Category>General</Category>
+            <Description>Allows the development of console operating systems.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Console</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Computer SDK</Name>
+			<Category>General</Category>
+            <Description>Allows the development of computer operating systems.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Computer</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature Forced="True">
+			<Name>Phone SDK</Name>
+			<Category>General</Category>
+            <Description>Allows the development of mobile phone operating systems.</Description>
+            <DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory>Phone</SoftwareCategory>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
