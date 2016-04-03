@@ -11,9 +11,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<NameGenerator>Manu</NameGenerator>
-    <Needs>
-		<Name>Artificial Intelligence</Name>
-    </Needs>
     <Features>
 		<Feature Forced="True">
 			<Name>Basic Movement</Name>

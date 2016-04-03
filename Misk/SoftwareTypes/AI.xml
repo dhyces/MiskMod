@@ -11,8 +11,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
 	<NameGenerator>AI</NameGenerator>
-    <Needs>
-    </Needs>
     <Features>
 	<Feature Forced="True">
 			<Name>Calculations</Name>

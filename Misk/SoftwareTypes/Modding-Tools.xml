@@ -11,8 +11,6 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<NameGenerator>ModTools</NameGenerator>
-    <Needs>
-    </Needs>
 	<Categories>
 		<Category Name="Computer Mod SDK">
 			<Description>Computer mod tool.</Description>
@@ -22,8 +20,6 @@
             <Retention>0.4</Retention>
             <Iterative>1</Iterative>
             <NameGenerator>ModTools</NameGenerator>
-			<Needs>
-			</Needs>
 		</Category>
 		<Category Name="Console Mod SDK">
 			<Description>Console mod tool.</Description>
@@ -64,9 +60,8 @@
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory>Phone Mod SDK</SoftwareCategory>
-            <Dependencies>
-            </Dependencies>
+			<SoftwareCategory Category="Phone Mod SDK">0</SoftwareCategory>
+			<Dependency Software="Operating System">Phone Mod Support</Dependency>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Console Mod Support</Name>
@@ -78,9 +73,8 @@
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory>Console Mod SDK</SoftwareCategory>
-            <Dependencies>
-            </Dependencies>
+			<SoftwareCategory Category="Console Mod SDK">0</SoftwareCategory>
+			<Dependency Software="Operating System">Console Mod Support</Dependency>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Computer Mod Support</Name>
@@ -92,9 +86,8 @@
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory>Computer Mod SDK</SoftwareCategory>
-            <Dependencies>
-            </Dependencies>
+			<SoftwareCategory Category="Computer Mod SDK">0</SoftwareCategory>
+			<Dependency Software="Operating System">Computer Mod Support</Dependency>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Game Mod Support</Name>
@@ -106,22 +99,19 @@
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory>Game Mod SDK</SoftwareCategory>
-            <Dependencies>
-            </Dependencies>
+			<SoftwareCategory Category="Game Mod SDK">0</SoftwareCategory>
+			<Dependency Software="Game">Mod Support</Dependency>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Menu</Name>
 			<Category>General</Category>
-            <Description>The basic workplace for modders.</Description>
+            <Description>The basic workplane for modders.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-            </Dependencies>
 		</Feature>
 		<Feature From="Menu">
 			<Name>Enhanced Menu</Name>
@@ -133,9 +123,7 @@
 			<Stability>2</Stability>
             <Unlock>1981</Unlock>
 			<CodeArt>0.5</CodeArt>
-            <Dependencies>
-				<Dependency Software="Modding Tools">Menu</Dependency>
-            </Dependencies>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
 		</Feature>
 		<Feature From="Enhanced Menu">
 			<Name>Advanced Graphical User Interface</Name>
@@ -147,9 +135,8 @@
 			<Stability>3</Stability>
             <Unlock>1982</Unlock>
 			<CodeArt>0.2</CodeArt>
-            <Dependencies>
-				<Dependency Software="Modding Tools">Enhanced Menu</Dependency>
-            </Dependencies>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<Dependency Software="2D Editor">Cinematic filter</Dependency>
 		</Feature>
 		<Feature>
 			<Name>3D Support</Name>
@@ -161,9 +148,8 @@
 			<Stability>3</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>0.9</CodeArt>
-            <Dependencies>
-				<Dependency Software="Operating System">3D rendering</Dependency>
-            </Dependencies>
+			<Dependency Software="Operating System">3D rendering</Dependency>
+			<Dependency Software="3D Editor">Vertex editing</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Audio Editing</Name>
@@ -175,8 +161,7 @@
 			<Stability>3</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>0.8</CodeArt>
-			<Dependencies>
-			</Dependencies>
+			<Dependency Software="Audio Tool">Audio playback</Dependency>
 		</Feature>
     </Features>
 </SoftwareType>    

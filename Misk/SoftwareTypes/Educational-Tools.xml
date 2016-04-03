@@ -9,11 +9,9 @@
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
 	<NameGenerator>EduSoft</NameGenerator>
-    <Needs>
-    </Needs>
     <Categories>
 		<Category Name="Mathematics">
-			<Description>Ain't nobody got time fo' dat? No, this stuff is important.</Description>
+			<Description>What's nine plus ten?</Description>
 			<TimeScale>0.6</TimeScale>
 			<Popularity>0.4</Popularity>
 			<Retention>0.8</Retention>
@@ -68,6 +66,19 @@
 			<Usability>6</Usability>
 			<Stability>3</Stability>
             <Unlock>1981</Unlock>
+			<CodeArt>1</CodeArt>
+            <Dependencies>
+            </Dependencies>
+		</Feature>
+		<Feature>
+			<Name>Interaction</Name>
+			<Category>General</Category>
+            <Description>Allows the user to interact with the software.</Description>
+            <DevTime>6</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+            <Unlock>1985</Unlock>
 			<CodeArt>1</CodeArt>
             <Dependencies>
             </Dependencies>
