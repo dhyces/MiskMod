@@ -1,0 +1,52 @@
+<SoftwareType>
+	<Name>Virtual Reality</Name>
+	<Category>Virtual Reality Device</Category>
+	<Description>Nothing's real!</Description>
+	<Unlock>2010</Unlock>
+	<Random>0.5</Random>
+	<Popularity>0.8</Popularity>
+	<Retention>0.6</Retention>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Categories>
+		<Category Name="Headset">
+			<Description>A large headset on your face.</Description>
+			<TimeScale>0.3</TimeScale>
+			<Popularity>0.7</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>0.9</Iterative>
+			<NameGenerator>VR</NameGenerator>
+		</Category>
+		<Category Name="Holographic Headset">
+			<Description>A clear glass thing on your face.</Description>
+			<TimeScale>0.6</TimeScale>
+			<Popularity>0.8</Popularity>
+			<Retention>0.7</Retention>
+			<Iterative>0.7</Iterative>
+			<NameGenerator>VR</NameGenerator>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="True">
+			<Name>360 Visual Immersion</Name>
+			<Category>System</Category>
+			<Description>You can see all around you!</Description>
+			<DevTime>6</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Built-in Audio</Name>
+			<Category>Audio</Category>
+			<Description>No more headphones!</Description>
+			<DevTime>5</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+	</Features>
+</SoftwareType>

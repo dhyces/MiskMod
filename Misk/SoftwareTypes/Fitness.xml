@@ -1,0 +1,149 @@
+<SoftwareType>
+	<Name>Fitness</Name>
+	<Category>Fitness Software</Category>
+	<Description>There are people that don't care about health, and there are those who care too much</Description>
+	<Unlock>1985</Unlock>
+	<Random>0.8</Random>
+	<Popularity>0.7</Popularity>
+	<Retention>0.5</Retention>
+	<Iterative>0.9</Iterative>
+	<OSSpecific>True</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>False</InHouse>
+	<NameGenerator>Fitness</NameGenerator>
+	<Categories>
+		<Category Name="Meter">
+			<Description>For the pocket</Description>
+			<Unlock>1985</Unlock>
+			<TimeScale>0.5</TimeScale>
+			<Popularity>0.5</Popularity>
+			<Retention>0.4</Retention>
+			<Iterative>0.6</Iterative>
+		</Category>
+		<Category Name="Band">
+			<Description>For the wrist</Description>
+			<Unlock>2000</Unlock>
+			<TimeScale>0.7</TimeScale>
+			<Popularity>0.8</Popularity>
+			<Retention>0.7</Retention>
+			<Iterative>0.9</Iterative>
+		</Category>
+		<Category Name="App">
+			<Description>For the phone</Description>
+			<Unlock>2005</Unlock>
+			<TimeScale>0.8</TimeScale>
+			<Popularity>0.9</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>0.9</Iterative>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="True">
+			<Name>Step Counter</Name>
+			<Category>General</Category>
+			<Description>Uses a sensor and tells you how many bumps there's been.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>0</Stability>
+			<Unlock>1985</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Step Counter">
+			<Name>MEMS Step Counter</Name>
+			<Category>General</Category>
+			<Description>Uses MEMS and tells you how many steps you've taken.</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>2</Usability>
+			<Stability>2</Stability>
+			<Unlock>2000</Unlock>
+			<Dependency Software="Research">Research MEMS</Dependency>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Step Converter</Name>
+			<Category>General</Category>
+			<Description>Converts steps into miles/kilometers.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<Unlock>1990</Unlock>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Calorie Counter</Name>
+			<Category>General</Category>
+			<Description>Converts steps into how many calories are burned.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="App">2005</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Reminders</Name>
+			<Category>General</Category>
+			<Description>If your phone tells you to jump off a bridge, would you?</Description>
+			<DevTime>3</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<Unlock>2005</Unlock>
+			<CodeArt>0.9</CodeArt>
+			<SoftwareCategory Category="App">2005</SoftwareCategory>
+		</Feature>
+		<Feature Vital="True">
+			<Name>Time Display</Name>
+			<Category>General</Category>
+			<Description>Displays what time it is.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>4</Usability>
+			<Stability>2</Stability>
+			<Unlock>1990</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Meter">1990</SoftwareCategory>
+			<SoftwareCategory Category="Band">1990</SoftwareCategory>
+		</Feature>
+		<Feature From="Time Display">
+			<Name>Running Time</Name>
+			<Category>General</Category>
+			<Description>Built in timer, telling you how long you've been running.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<Unlock>1995</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Meter">1990</SoftwareCategory>
+			<SoftwareCategory Category="Band">1990</SoftwareCategory>
+		</Feature>
+		<Feature From="MEMS Step Counter">
+			<Name>Speed Calculator</Name>
+			<Category>General</Category>
+			<Description>Converts steps into speed. Gotta go fast!</Description>
+			<DevTime>7</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+			<Unlock>2008</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="App">2005</SoftwareCategory>
+		</Feature>
+		<Feature>
+			<Name>Timer</Name>
+			<Category>General</Category>
+			<Description>Built in timer, telling you how long you've been running.</Description>
+			<DevTime>7</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+			<Unlock>2006</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="App">2006</SoftwareCategory>
+		</Feature>
+	</Features>

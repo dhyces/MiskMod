@@ -100,7 +100,7 @@
             <Unlock>1980</Unlock>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Game Mod SDK">0</SoftwareCategory>
-			<Dependency Software="Game">Mod Support</Dependency>
+			<Dependency Software="Game">Mod support</Dependency>
 		</Feature>
 		<Feature Forced="True">
 			<Name>Menu</Name>
@@ -121,7 +121,7 @@
 			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>2</Stability>
-            <Unlock>1981</Unlock>
+            <Unlock>1985</Unlock>
 			<CodeArt>0.5</CodeArt>
 			<Dependency Software="2D Editor">Image rendering</Dependency>
 		</Feature>
@@ -133,7 +133,7 @@
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>3</Stability>
-            <Unlock>1982</Unlock>
+            <Unlock>1990</Unlock>
 			<CodeArt>0.2</CodeArt>
 			<Dependency Software="2D Editor">Image rendering</Dependency>
 			<Dependency Software="2D Editor">Cinematic filter</Dependency>
@@ -146,7 +146,7 @@
 			<Innovation>4</Innovation>
 			<Usability>3</Usability>
 			<Stability>3</Stability>
-            <Unlock>1980</Unlock>
+            <Unlock>1995</Unlock>
 			<CodeArt>0.9</CodeArt>
 			<Dependency Software="Operating System">3D rendering</Dependency>
 			<Dependency Software="3D Editor">Vertex editing</Dependency>
@@ -162,6 +162,18 @@
             <Unlock>1980</Unlock>
 			<CodeArt>0.8</CodeArt>
 			<Dependency Software="Audio Tool">Audio playback</Dependency>
+		</Feature>
+		<Feature>
+			<Name>Image Editing</Name>
+			<Category>2D</Category>
+            <Description>Change pictures? Go on...</Description>
+            <DevTime>6</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>4</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>0.8</CodeArt>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
 		</Feature>
     </Features>
 </SoftwareType>    

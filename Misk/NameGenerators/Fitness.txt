@@ -1,0 +1,12 @@
+-begin(mid)
+Fit
+Next
+Health
+NoHospital
+-mid(end)
+Plus
+Fit
+Gen
+Health
++
+-end(stop)

@@ -1,0 +1,63 @@
+<SoftwareType>
+	<Name>Research</Name>
+	<Category>Research</Category>
+	<Description>Find out stuff! Not recommended for sale, as it will not produce much profit</Description>
+	<Unlock>1970</Unlock>
+	<Random>0</Random>
+	<Popularity>0</Popularity>
+	<OSSpecific>False</OSSpecific>
+	<OneClient>False</OneClient>
+	<InHouse>True</InHouse>
+	<Categories>
+		<Category Name="Low-Tier Research">
+			<Description>C-Class</Description>
+			<TimeScale>0.3</TimeScale>
+			<Popularity>0</Popularity>
+			<Retention>0</Retention>
+			<Iterative>0</Iterative>
+			<NameGenerator>Low-TierResearch</NameGenerator>
+		</Category>
+		<Category Name="Mid-Tier Research">
+			<Description>B-Class</Description>
+			<TimeScale>0.6</TimeScale>
+			<Popularity>0</Popularity>
+			<Retention>0</Retention>
+			<Iterative>0</Iterative>
+			<NameGenerator>Mid-TierResearch</NameGenerator>
+		</Category>
+		<Category Name="High-Tier Research">
+			<Description>A-Class</Description>
+			<TimeScale>0.9</TimeScale>
+			<Popularity>0</Popularity>
+			<Retention>0</Retention>
+			<Iterative>0</Iterative>
+			<NameGenerator>High-TierResearch</NameGenerator>
+		</Category>
+	</Categories>
+	<Features>
+		<Feature Forced="True">
+			<Name>Low-Tier Research</Name>
+			<Category>Research</Category>
+			<Description>Select a topic to research on the branch -></Description>
+			<DevTime>1</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Low-Tier Research">1970</SoftwareCategory>
+		</Feature>
+		<Feature From="Low-Tier Research">
+			<Name>Research MEMS</Name>
+			<Category>Research</Category>
+			<Description>Research for Microelecromechanical Systems</Description>
+			<DevTime>6</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+            <Unlock>2000</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Low-Tier Research">2000</SoftwareCategory>
+		</Feature>
+	</Features>
+</SoftwareType>

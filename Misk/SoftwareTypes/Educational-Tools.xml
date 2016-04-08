@@ -47,15 +47,13 @@
 		<Feature Forced="True">
 			<Name>Menu</Name>
 			<Category>General</Category>
-            <Description>They gotta know what button to press.</Description>
+            <Description>Teachers gotta know what button to press.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
             <Unlock>1980</Unlock>
 			<CodeArt>0.8</CodeArt>
-            <Dependencies>
-            </Dependencies>
 		</Feature>
 		<Feature>
 			<Name>Translation</Name>
@@ -67,8 +65,6 @@
 			<Stability>3</Stability>
             <Unlock>1981</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-            </Dependencies>
 		</Feature>
 		<Feature>
 			<Name>Interaction</Name>
@@ -80,8 +76,6 @@
 			<Stability>3</Stability>
             <Unlock>1985</Unlock>
 			<CodeArt>1</CodeArt>
-            <Dependencies>
-            </Dependencies>
 		</Feature>
     </Features>
 </SoftwareType>    

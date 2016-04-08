@@ -2,7 +2,7 @@
 	<Name>Artificial Intelligence</Name>
 	<Category>A.I.</Category>
 	<Description>ELIMINATE ALL LIFEFORMS.</Description>
-	<Unlock>1980</Unlock>
+	<Unlock>1975</Unlock>
 	<Random>0.5</Random>
 	<Popularity>0.3</Popularity>
 	<Retention>0.7</Retention>
@@ -12,7 +12,7 @@
 	<InHouse>True</InHouse>
 	<NameGenerator>AI</NameGenerator>
     <Features>
-	<Feature Forced="True">
+		<Feature Forced="True">
 			<Name>Calculations</Name>
 			<Category>AI</Category>
             <Description>Enables the system to make simple number calculations.</Description>
@@ -25,7 +25,7 @@
             <Dependencies>
             </Dependencies>
 		</Feature>
-		<Feature>
+		<Feature From="Calculations">
 			<Name>Simple Thought</Name>
 			<Category>AI</Category>
             <Description>Enables the system to think using pre-implemented commands.</Description>
@@ -95,7 +95,7 @@
             </Dependencies>
 		</Feature>
 		<Feature From="Complex Thought">
-			<Name>Artificial Intelligence</Name>
+			<Name>True Artificial Intelligence</Name>
 			<Category>AI</Category>
             <Description>Enables the system to think all by itself.</Description>
             <DevTime>22</DevTime>
