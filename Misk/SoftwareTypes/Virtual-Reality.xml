@@ -20,7 +20,7 @@
 		</Category>
 		<Category Name="Holographic Headset">
 			<Description>A clear glass thing on your face.</Description>
-			<TimeScale>0.6</TimeScale>
+			<TimeScale>0.9</TimeScale>
 			<Popularity>0.8</Popularity>
 			<Retention>0.7</Retention>
 			<Iterative>0.7</Iterative>
@@ -32,8 +32,8 @@
 			<Name>360 Visual Immersion</Name>
 			<Category>System</Category>
 			<Description>You can see all around you!</Description>
-			<DevTime>6</DevTime>
-			<Innovation>1</Innovation>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
@@ -42,10 +42,11 @@
 			<Name>Built-in Audio</Name>
 			<Category>Audio</Category>
 			<Description>No more headphones!</Description>
-			<DevTime>5</DevTime>
+			<DevTime>6</DevTime>
 			<Innovation>1</Innovation>
-			<Usability>2</Usability>
+			<Usability>1</Usability>
 			<Stability>1</Stability>
+			<Dependency Software="Operating System">HD audio</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
 	</Features>

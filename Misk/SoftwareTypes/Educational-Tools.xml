@@ -46,13 +46,14 @@
     <Features>
 		<Feature Forced="True">
 			<Name>Menu</Name>
-			<Category>General</Category>
+			<Category>2D</Category>
             <Description>Teachers gotta know what button to press.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-            <Unlock>1980</Unlock>
+			<Dependency Software="Operating System">Terminal</Dependency>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
 			<CodeArt>0.8</CodeArt>
 		</Feature>
 		<Feature>
@@ -63,18 +64,41 @@
 			<Innovation>4</Innovation>
 			<Usability>6</Usability>
 			<Stability>3</Stability>
-            <Unlock>1981</Unlock>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature>
+		<Feature Vital="True">
 			<Name>Interaction</Name>
-			<Category>General</Category>
+			<Category>System</Category>
             <Description>Allows the user to interact with the software.</Description>
             <DevTime>6</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>4</Usability>
 			<Stability>3</Stability>
+			<Dependency Software="Operating System">Input system</Dependency>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Animations</Name>
+			<Category>2D</Category>
+            <Description>Makes it look fancy using bursts and slides.</Description>
+            <DevTime>8</DevTime>
+			<Innovation>4</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
             <Unlock>1985</Unlock>
+			<Dependency Software="2D Editor">Image rendering</Dependency>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Read-Aloud</Name>
+			<Category>2D</Category>
+            <Description>Allows the system to "read" words on screen. +Laziness!</Description>
+            <DevTime>9</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>3</Stability>
+            <Unlock>1985</Unlock>
+			<Dependency Software="Artificial Intelligence">Communication</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
     </Features>

@@ -5,8 +5,6 @@
 	<Unlock>1985</Unlock>
 	<Random>0.8</Random>
 	<Popularity>0.7</Popularity>
-	<Retention>0.5</Retention>
-	<Iterative>0.9</Iterative>
 	<OSSpecific>True</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>False</InHouse>
@@ -40,7 +38,7 @@
 	<Features>
 		<Feature Forced="True">
 			<Name>Step Counter</Name>
-			<Category>General</Category>
+			<Category>System</Category>
 			<Description>Uses a sensor and tells you how many bumps there's been.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -51,7 +49,7 @@
 		</Feature>
 		<Feature From="Step Counter">
 			<Name>MEMS Step Counter</Name>
-			<Category>General</Category>
+			<Category>System</Category>
 			<Description>Uses MEMS and tells you how many steps you've taken.</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -63,7 +61,7 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Step Converter</Name>
-			<Category>General</Category>
+			<Category>System</Category>
 			<Description>Converts steps into miles/kilometers.</Description>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
@@ -72,9 +70,9 @@
 			<Unlock>1990</Unlock>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature>
+		<Feature From="Step Converter">
 			<Name>Calorie Counter</Name>
-			<Category>General</Category>
+			<Category>System</Category>
 			<Description>Converts steps into how many calories are burned.</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>
@@ -86,7 +84,7 @@
 		</Feature>
 		<Feature>
 			<Name>Reminders</Name>
-			<Category>General</Category>
+			<Category>2D</Category>
 			<Description>If your phone tells you to jump off a bridge, would you?</Description>
 			<DevTime>3</DevTime>
 			<Innovation>3</Innovation>
@@ -98,7 +96,6 @@
 		</Feature>
 		<Feature Vital="True">
 			<Name>Time Display</Name>
-			<Category>General</Category>
 			<Description>Displays what time it is.</Description>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
@@ -111,7 +108,6 @@
 		</Feature>
 		<Feature From="Time Display">
 			<Name>Running Time</Name>
-			<Category>General</Category>
 			<Description>Built in timer, telling you how long you've been running.</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>
@@ -122,9 +118,8 @@
 			<SoftwareCategory Category="Meter">1990</SoftwareCategory>
 			<SoftwareCategory Category="Band">1990</SoftwareCategory>
 		</Feature>
-		<Feature From="MEMS Step Counter">
+		<Feature>
 			<Name>Speed Calculator</Name>
-			<Category>General</Category>
 			<Description>Converts steps into speed. Gotta go fast!</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>
@@ -136,7 +131,6 @@
 		</Feature>
 		<Feature>
 			<Name>Timer</Name>
-			<Category>General</Category>
 			<Description>Built in timer, telling you how long you've been running.</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>

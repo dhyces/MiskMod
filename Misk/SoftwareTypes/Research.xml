@@ -3,8 +3,8 @@
 	<Category>Research</Category>
 	<Description>Find out stuff! Not recommended for sale, as it will not produce much profit</Description>
 	<Unlock>1970</Unlock>
-	<Random>0</Random>
-	<Popularity>0</Popularity>
+	<Random>1</Random>
+	<Popularity>0.5</Popularity>
 	<OSSpecific>False</OSSpecific>
 	<OneClient>False</OneClient>
 	<InHouse>True</InHouse>
@@ -47,7 +47,31 @@
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Low-Tier Research">1970</SoftwareCategory>
 		</Feature>
-		<Feature From="Low-Tier Research">
+		<Feature Forced="True">
+			<Name>Mid-Tier Research</Name>
+			<Category>Research</Category>
+			<Description>Select a topic to research on the branch -></Description>
+			<DevTime>2</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Mid-Tier Research">1970</SoftwareCategory>
+		</Feature>
+		<Feature Forced="True">
+			<Name>High-Tier Research</Name>
+			<Category>Research</Category>
+			<Description>Select a topic to research on the branch -></Description>
+			<DevTime>3</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+            <Unlock>1970</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="High-Tier Research">1970</SoftwareCategory>
+		</Feature>
+		<Feature From="High-Tier Research">
 			<Name>Research MEMS</Name>
 			<Category>Research</Category>
 			<Description>Research for Microelecromechanical Systems</Description>
@@ -57,7 +81,31 @@
 			<Stability>1</Stability>
             <Unlock>2000</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Low-Tier Research">2000</SoftwareCategory>
+			<SoftwareCategory Category="High-Tier Research">2000</SoftwareCategory>
+		</Feature>
+		<Feature From="Mid-Tier Research">
+			<Name>Research AI Simple Thought</Name>
+			<Category>Research</Category>
+			<Description>Research for AI</Description>
+			<DevTime>7</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+            <Unlock>1980</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Mid-Tier Research">1980</SoftwareCategory>
+		</Feature>
+		<Feature From="Research AI Simple Thought">
+			<Name>Research AI Basic Thought</Name>
+			<Category>Research</Category>
+			<Description>Research for AI</Description>
+			<DevTime>8</DevTime>
+			<Innovation>0</Innovation>
+			<Usability>0</Usability>
+			<Stability>1</Stability>
+            <Unlock>1985</Unlock>
+			<CodeArt>1</CodeArt>
+			<SoftwareCategory Category="Mid-Tier Research">1985</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

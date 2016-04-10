@@ -9,8 +9,6 @@
 		<Amount>500000</Amount>
 	</Money>
 	<Goals>
-		<Goal>Money 1000000,Date 12-2023</Goal>
-		<Goal>Money 5000000,Date 1-2025</Goal>
 	</Goals>
 	<Years>
 		<Year>2020</Year>
