@@ -14,18 +14,17 @@
     <Features>
 		<Feature Forced="True">
 			<Name>Calculations</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>Enables the system to make simple number calculations.</Description>
             <DevTime>4</DevTime>
 			<Innovation>1</Innovation>
 			<Usability>1</Usability>
 			<Stability>1</Stability>
-			<Dependency Software="Operating System">Terminal</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
 			<Name>Robotic Integration</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>Allows the system to be used in robotics.</Description>
             <DevTime>5</DevTime>
 			<Innovation>2</Innovation>
@@ -34,43 +33,45 @@
 			<Dependency Software="Artificial Intelligence">Calculations</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="Calculations">
+		<Feature Vital="True">
 			<Name>Simple Thought</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>The system can use more programming.</Description>
             <DevTime>4</DevTime>
 			<Innovation>2</Innovation>
-			<Usability>2</Usability>
+			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<Unlock>1980</Unlock>
-			<Dependency Software="Research">Research AI Simple Thought</Dependency>
 			<CodeArt>1</CodeArt>
+			<Dependency Software="Artificial Intelligence">Calculations</Dependency>
 		</Feature>
 		<Feature>
 			<Name>Backtrack</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>For when the system reaches a dead end.</Description>
             <DevTime>6</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
 			<Stability>2</Stability>
+			<Unlock>1978</Unlock>
 			<Dependency Software="Artificial Intelligence">Simple Thought</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="Backtrack">
+		<Feature Research="Backtrack">
 			<Name>Heuristics</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>Cancel out options that won't lead to a solution.</Description>
             <DevTime>7</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>3</Stability>
+			<Unlock>1982</Unlock>
 			<Dependency Software="Artificial Intelligence">Simple Thought</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
 			<Name>Communication</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>IT SPEAKS!</Description>
             <DevTime>8</DevTime>
 			<Innovation>3</Innovation>
@@ -81,20 +82,19 @@
 		</Feature>
 		<Feature From="Simple Thought">
 			<Name>Basic Thought</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>Enables the system to access more program knowledge.</Description>
             <DevTime>10</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
 			<Stability>3</Stability>
 			<Unlock>1985</Unlock>
-			<Dependency Software="Research">Research AI Basic Thought</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature>
 			<Name>Expert Systems</Name>
-			<Category>AI</Category>
-            <Description>I've done research. Can solve problems from a specific domain.</Description>
+			<Category>Algorithm</Category>
+            <Description>I've done research. Can solve problems from a specific domAlgorithmn.</Description>
             <DevTime>5</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>1</Usability>
@@ -104,7 +104,7 @@
 		</Feature>
 		<Feature>
 			<Name>Audio Sensor Integration</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>Allows the system to use audio sensors.</Description>
             <DevTime>6</DevTime>
 			<Innovation>1</Innovation>
@@ -116,7 +116,7 @@
 		</Feature>
 		<Feature>
 			<Name>Connectionism</Name>
-			<Category>AI</Category>
+			<Category>Algorithm</Category>
             <Description>The system can "think" using pre-made connected algorithms.</Description>
             <DevTime>5</DevTime>
 			<Innovation>2</Innovation>

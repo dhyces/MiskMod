@@ -1,5 +1,22 @@
 <SoftwareType Override="True">
 	<Name>Operating System</Name>
+	<Categories>
+		<Category Name="Calculator">
+			<Description>For the math</Description>
+			<TimeScale>0.45</TimeScale>
+			<Popularity>0.65</Popularity>
+			<Retention>0.7</Retention>
+			<Iterative>1</Iterative>
+		</Category>
+		<Category Name="Nerve Gear">
+			<Unlock>2020</Unlock>
+			<Description>For you</Description>
+			<TimeScale>1</TimeScale>
+			<Popularity>0.85</Popularity>
+			<Retention>0.8</Retention>
+			<Iterative>0.94</Iterative>
+		</Category>
+	</Categories>
 	<Features>
 		<Feature Forced="TRUE">
 			<Name>Terminal</Name>
@@ -40,6 +57,8 @@
 			<SoftwareCategory Category="Computer">1983</SoftwareCategory>
 			<SoftwareCategory Category="Console">1983</SoftwareCategory>
 			<SoftwareCategory Category="Phone">2000</SoftwareCategory>
+			<SoftwareCategory Category="Calculator">2000</SoftwareCategory>
+			<SoftwareCategory Category="Nerve Gear">2020</SoftwareCategory>
 		</Feature>
 		<Feature Forced="TRUE">
 			<Name>Input system</Name>
@@ -63,6 +82,7 @@
 			<Dependency Software="Operating System">Input system</Dependency>
 			<SoftwareCategory Category="Computer">1985</SoftwareCategory>
 			<SoftwareCategory Category="Console">1990</SoftwareCategory>
+			<SoftwareCategory Category="Calculator">2005</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Touch</Name>
@@ -178,38 +198,16 @@
 			<Stability>1</Stability>
 			<CodeArt>0.9</CodeArt>
 		</Feature>
-		<Feature>
-			<Name>Console Mod Support</Name>
+		<Feature Forced="True">
+			<Name>Basic Math</Name>
 			<Category>System</Category>
-            <Description>Allows the development of modifications for console operating systems.</Description>
+            <Description>Allows the user to do simple math</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
-			<Usability>1</Usability>
-			<Stability>0</Stability>
-			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Console">1980</SoftwareCategory>
-		</Feature>
-		<Feature>
-			<Name>Phone Mod Support</Name>
-			<Category>System</Category>
-            <Description>Allows the development of modifications for mobile phone operating systems.</Description>
-            <DevTime>3</DevTime>
-			<Innovation>1</Innovation>
-			<Usability>1</Usability>
-			<Stability>0</Stability>
-			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Phone">1980</SoftwareCategory>
-		</Feature>
-		<Feature>
-			<Name>Computer Mod Support</Name>
-			<Category>System</Category>
-            <Description>Allows the development of modifications for computer operating systems.</Description>
-            <DevTime>3</DevTime>
-			<Innovation>2</Innovation>
 			<Usability>2</Usability>
 			<Stability>1</Stability>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Computer">1980</SoftwareCategory>
+			<SoftwareCategory Category="Calculator">0</SoftwareCategory>
 		</Feature>
 	</Features>
 </SoftwareType>

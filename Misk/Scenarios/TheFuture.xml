@@ -1,9 +1,7 @@
 <Scenario>
 	<Name>The Future</Name>
 	<Money>
-		<Amount>250</Amount>
-		<Amount>500</Amount>
-		<Amount>1000</Amount>
+		<Amount>1005</Amount>
 		<Amount>2000</Amount>
 		<Amount>20000</Amount>
 		<Amount>500000</Amount>

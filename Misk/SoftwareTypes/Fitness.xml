@@ -47,7 +47,7 @@
 			<Unlock>1985</Unlock>
 			<CodeArt>1</CodeArt>
 		</Feature>
-		<Feature From="Step Counter">
+		<Feature Research="Step Counter">
 			<Name>MEMS Step Counter</Name>
 			<Category>System</Category>
 			<Description>Uses MEMS and tells you how many steps you've taken.</Description>
@@ -56,7 +56,6 @@
 			<Usability>2</Usability>
 			<Stability>2</Stability>
 			<Unlock>2000</Unlock>
-			<Dependency Software="Research">Research MEMS</Dependency>
 			<CodeArt>1</CodeArt>
 		</Feature>
 		<Feature Vital="True">
@@ -78,9 +77,8 @@
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>2</Stability>
-			<Unlock>2000</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="App">2005</SoftwareCategory>
+			<SoftwareCategory Category="App">2000</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Reminders</Name>
@@ -90,54 +88,54 @@
 			<Innovation>3</Innovation>
 			<Usability>4</Usability>
 			<Stability>2</Stability>
-			<Unlock>2005</Unlock>
 			<CodeArt>0.9</CodeArt>
 			<SoftwareCategory Category="App">2005</SoftwareCategory>
 		</Feature>
 		<Feature Vital="True">
 			<Name>Time Display</Name>
+			<Category>2D</Category>
 			<Description>Displays what time it is.</Description>
 			<DevTime>6</DevTime>
 			<Innovation>2</Innovation>
 			<Usability>4</Usability>
 			<Stability>2</Stability>
-			<Unlock>1990</Unlock>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="Meter">1990</SoftwareCategory>
 			<SoftwareCategory Category="Band">1990</SoftwareCategory>
 		</Feature>
 		<Feature From="Time Display">
 			<Name>Running Time</Name>
+			<Category>System</Category>
 			<Description>Built in timer, telling you how long you've been running.</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>3</Stability>
-			<Unlock>1995</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="Meter">1990</SoftwareCategory>
-			<SoftwareCategory Category="Band">1990</SoftwareCategory>
+			<SoftwareCategory Category="Meter">1995</SoftwareCategory>
+			<SoftwareCategory Category="Band">1995</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Speed Calculator</Name>
+			<Category>System</Category>
 			<Description>Converts steps into speed. Gotta go fast!</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>4</Usability>
 			<Stability>3</Stability>
-			<Unlock>2008</Unlock>
 			<CodeArt>1</CodeArt>
-			<SoftwareCategory Category="App">2005</SoftwareCategory>
+			<SoftwareCategory Category="App">2008</SoftwareCategory>
 		</Feature>
 		<Feature>
 			<Name>Timer</Name>
+			<Category>System</Category>
 			<Description>Built in timer, telling you how long you've been running.</Description>
 			<DevTime>7</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>3</Usability>
 			<Stability>3</Stability>
-			<Unlock>2006</Unlock>
 			<CodeArt>1</CodeArt>
 			<SoftwareCategory Category="App">2006</SoftwareCategory>
 		</Feature>
 	</Features>
+</SoftwareType>

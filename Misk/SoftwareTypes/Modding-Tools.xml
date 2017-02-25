@@ -52,7 +52,7 @@
     <Features>
 		<Feature Forced="True">
 			<Name>Phone Mod Support</Name>
-			<Category>General</Category>
+			<Category>System</Category>
             <Description>Allows the modding of mobile phone operating systems.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -65,7 +65,7 @@
 		</Feature>
 		<Feature Forced="True">
 			<Name>Console Mod Support</Name>
-			<Category>General</Category>
+			<Category>System</Category>
             <Description>Allows the modding of console operating systems.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -78,7 +78,7 @@
 		</Feature>
 		<Feature Forced="True">
 			<Name>Computer Mod Support</Name>
-			<Category>General</Category>
+			<Category>System</Category>
             <Description>Allows the modding of computer operating systems.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -91,7 +91,7 @@
 		</Feature>
 		<Feature Forced="True">
 			<Name>Game Mod Support</Name>
-			<Category>General</Category>
+			<Category>System</Category>
             <Description>Allows the modding of video games. Deja-vu.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -104,7 +104,7 @@
 		</Feature>
 		<Feature Forced="True">
 			<Name>Menu</Name>
-			<Category>General</Category>
+			<Category>2D</Category>
             <Description>The basic workplane for modders.</Description>
             <DevTime>3</DevTime>
 			<Innovation>1</Innovation>
@@ -115,7 +115,7 @@
 		</Feature>
 		<Feature From="Menu">
 			<Name>Enhanced Menu</Name>
-			<Category>General</Category>
+			<Category>2D</Category>
             <Description>Nicer, filled menu, with new options!</Description>
             <DevTime>6</DevTime>
 			<Innovation>2</Innovation>
@@ -127,7 +127,7 @@
 		</Feature>
 		<Feature From="Enhanced Menu">
 			<Name>Advanced Graphical User Interface</Name>
-			<Category>General</Category>
+			<Category>2D</Category>
             <Description>A very completed workspace for the over-achiever.</Description>
             <DevTime>9</DevTime>
 			<Innovation>3</Innovation>

@@ -12,7 +12,7 @@
 	<Categories>
 		<Category Name="Headset">
 			<Description>A large headset on your face.</Description>
-			<TimeScale>0.3</TimeScale>
+			<TimeScale>0.6</TimeScale>
 			<Popularity>0.7</Popularity>
 			<Retention>0.8</Retention>
 			<Iterative>0.9</Iterative>
@@ -29,9 +29,9 @@
 	</Categories>
 	<Features>
 		<Feature Forced="True">
-			<Name>360 Visual Immersion</Name>
+			<Name>360 Motion Tracking</Name>
 			<Category>System</Category>
-			<Description>You can see all around you!</Description>
+			<Description>It tracks where you look!</Description>
 			<DevTime>8</DevTime>
 			<Innovation>3</Innovation>
 			<Usability>2</Usability>
@@ -47,6 +47,119 @@
 			<Usability>1</Usability>
 			<Stability>1</Stability>
 			<Dependency Software="Operating System">HD audio</Dependency>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Built-in Audio">
+			<Name>Built-in Microphone</Name>
+			<Category>Audio</Category>
+			<Description>Now you can talk to your friends!</Description>
+			<DevTime>7</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Controller</Name>
+			<Category>System</Category>
+			<Description>Uses wires. Still works fine when not tangled around you.</Description>
+			<DevTime>6</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="Controller">
+			<Name>Wireless Controller</Name>
+			<Category>System</Category>
+			<Description>It's a controller, minus choking!</Description>
+			<DevTime>9</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature Forced="True">
+			<Name>60 Degree FOV</Name>
+			<Category>System</Category>
+			<Description>A type of view of which you would respond with, "Meh"</Description>
+			<DevTime>7</DevTime>
+			<Innovation>1</Innovation>
+			<Usability>1</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="60 Degree FOV">
+			<Name>70 Degree FOV</Name>
+			<Category>System</Category>
+			<Description>A type of view of which you would respond with, "Mehhh?"</Description>
+			<DevTime>8</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>2</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="70 Degree FOV">
+			<Name>80 Degree FOV</Name>
+			<Category>System</Category>
+			<Description>A type of view of which you would respond with, "Hmm..."</Description>
+			<DevTime>10</DevTime>
+			<Innovation>2</Innovation>
+			<Usability>3</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="80 Degree FOV">
+			<Name>90 Degree FOV</Name>
+			<Category>System</Category>
+			<Description>A type of view of which you would respond with, "I like it"</Description>
+			<DevTime>13</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="90 Degree FOV">
+			<Name>100 Degree FOV</Name>
+			<Category>System</Category>
+			<Description>A type of view of which you would respond with, "I can see!"</Description>
+			<DevTime>15</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>5</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature From="100 Degree FOV">
+			<Name>110 Degree FOV</Name>
+			<Category>System</Category>
+			<Description>A type of view of which you would respond with, "I love it!". Thanks Steam!</Description>
+			<DevTime>18</DevTime>
+			<Innovation>5</Innovation>
+			<Usability>6</Usability>
+			<Stability>1</Stability>
+			<CodeArt>1</CodeArt>
+		</Feature>
+		<Feature>
+			<Name>Haptic Controller</Name>
+			<Category>System</Category>
+			<Description>It's like the Wii!</Description>
+			<DevTime>8</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>3</Usability>
+			<Stability>2</Stability>
+			<Unlock>2008</Unlock>
+			<CodeArt>1</CodeArt>
+			<Dependency Software="Virtual Reality">Controller</Dependency>
+		</Feature>
+		<Feature Research="Haptic Controller">
+			<Name>HD Haptic Controller</Name>
+			<Category>System</Category>
+			<Description>It's like the HTC Vive!</Description>
+			<DevTime>10</DevTime>
+			<Innovation>3</Innovation>
+			<Usability>4</Usability>
+			<Stability>3</Stability>
+			<Unlock>2015</Unlock>
 			<CodeArt>1</CodeArt>
 		</Feature>
 	</Features>
